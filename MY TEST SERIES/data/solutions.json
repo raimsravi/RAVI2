@@ -1,0 +1,8 @@
+{
+  "dbms": [
+    {
+      "explanation": "TRUNCATE table ke sare records ko ek sath delete karta hai bina row-wise logging ke.",
+      "concept": "TRUNCATE DDL command hai. DELETE vs TRUNCATE difference BPSC TRE me frequently pucha jata hai."
+    }
+  ]
+}

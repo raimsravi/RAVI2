@@ -1,0 +1,51 @@
+{
+  "chapter_wise": {
+    "Computer Science": [
+      "Digital Logic",
+      "COA",
+      "Networking",
+      "Operating System",
+      "DSA",
+      "OOPS",
+      "C / C++",
+      "DBMS",
+      "Software Engineering"
+    ],
+    "General Paper": [
+      "Maths",
+      "Science",
+      "History",
+      "Geography",
+      "Polity",
+      "Current Affairs",
+      "Bihar Special"
+    ]
+  },
+
+  "full_length": [
+    "Full Length Test 01",
+    "Full Length Test 02",
+    "Full Length Test 03",
+    "Full Length Test 04",
+    "Full Length Test 05",
+    "Full Length Test 06",
+    "Full Length Test 07",
+    "Full Length Test 08",
+    "Full Length Test 09",
+    "Full Length Test 10",
+    "Full Length Test 11",
+    "Full Length Test 12",
+    "Full Length Test 13",
+    "Full Length Test 14",
+    "Full Length Test 15"
+  ],
+
+  "pyq": [
+    "STET 2022",
+    "STET 2023",
+    "STET 2024",
+    "TRE 1",
+    "TRE 2",
+    "TRE 3"
+  ]
+}

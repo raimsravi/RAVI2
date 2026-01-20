@@ -1,0 +1,340 @@
+{
+  "computer_science": {
+    "name": "Computer Science",
+    "chapters": [
+      {
+        "id": "digital_logic",
+        "title": "Digital Logic",
+        "tests": [
+          {
+            "id": "cs_dl_t1",
+            "title": "Digital Logic – Test 01",
+            "questions": 80,
+            "marks": 80,
+            "time": "60 Min"
+          },
+          {
+            "id": "cs_dl_t2",
+            "title": "Digital Logic – Test 02",
+            "questions": 80,
+            "marks": 80,
+            "time": "60 Min"
+          }
+        ]
+      },
+      {
+        "id": "coa",
+        "title": "Computer Organization & Architecture",
+        "tests": [
+          {
+            "id": "cs_coa_t1",
+            "title": "COA – Test 01",
+            "questions": 80,
+            "marks": 80,
+            "time": "60 Min"
+          },
+          {
+            "id": "cs_coa_t2",
+            "title": "COA – Test 02",
+            "questions": 80,
+            "marks": 80,
+            "time": "60 Min"
+          }
+        ]
+      },
+      {
+        "id": "operating_system",
+        "title": "Operating System",
+        "tests": [
+          {
+            "id": "cs_os_t1",
+            "title": "Operating System – Test 01",
+            "questions": 80,
+            "marks": 80,
+            "time": "60 Min"
+          },
+          {
+            "id": "cs_os_t2",
+            "title": "Operating System – Test 02",
+            "questions": 80,
+            "marks": 80,
+            "time": "60 Min"
+          }
+        ]
+      },
+      {
+        "id": "dbms",
+        "title": "Database Management System (DBMS)",
+        "tests": [
+          {
+            "id": "cs_dbms_t1",
+            "title": "DBMS – Test 01",
+            "questions": 80,
+            "marks": 80,
+            "time": "60 Min"
+          },
+          {
+            "id": "cs_dbms_t2",
+            "title": "DBMS – Test 02",
+            "questions": 80,
+            "marks": 80,
+            "time": "60 Min"
+          }
+        ]
+      },
+      {
+        "id": "data_structure",
+        "title": "Data Structures & Algorithms",
+        "tests": [
+          {
+            "id": "cs_dsa_t1",
+            "title": "DSA – Test 01",
+            "questions": 80,
+            "marks": 80,
+            "time": "60 Min"
+          },
+          {
+            "id": "cs_dsa_t2",
+            "title": "DSA – Test 02",
+            "questions": 80,
+            "marks": 80,
+            "time": "60 Min"
+          }
+        ]
+      },
+      {
+        "id": "oops",
+        "title": "Object Oriented Programming (OOPS)",
+        "tests": [
+          {
+            "id": "cs_oops_t1",
+            "title": "OOPS – Test 01",
+            "questions": 80,
+            "marks": 80,
+            "time": "60 Min"
+          },
+          {
+            "id": "cs_oops_t2",
+            "title": "OOPS – Test 02",
+            "questions": 80,
+            "marks": 80,
+            "time": "60 Min"
+          }
+        ]
+      },
+      {
+        "id": "cpp",
+        "title": "C & C++ Programming",
+        "tests": [
+          {
+            "id": "cs_cpp_t1",
+            "title": "C/C++ – Test 01",
+            "questions": 80,
+            "marks": 80,
+            "time": "60 Min"
+          },
+          {
+            "id": "cs_cpp_t2",
+            "title": "C/C++ – Test 02",
+            "questions": 80,
+            "marks": 80,
+            "time": "60 Min"
+          }
+        ]
+      },
+      {
+        "id": "software_engineering",
+        "title": "Software Engineering",
+        "tests": [
+          {
+            "id": "cs_se_t1",
+            "title": "Software Engineering – Test 01",
+            "questions": 80,
+            "marks": 80,
+            "time": "60 Min"
+          },
+          {
+            "id": "cs_se_t2",
+            "title": "Software Engineering – Test 02",
+            "questions": 80,
+            "marks": 80,
+            "time": "60 Min"
+          }
+        ]
+      },
+      {
+        "id": "networking",
+        "title": "Computer Networking",
+        "tests": [
+          {
+            "id": "cs_net_t1",
+            "title": "Networking – Test 01",
+            "questions": 80,
+            "marks": 80,
+            "time": "60 Min"
+          },
+          {
+            "id": "cs_net_t2",
+            "title": "Networking – Test 02",
+            "questions": 80,
+            "marks": 80,
+            "time": "60 Min"
+          }
+        ]
+      }
+    ]
+  },
+
+
+
+
+
+  
+
+"general_paper": {
+  "name": "General Science / General Paper",
+  "chapters": [
+    {
+      "id": "maths",
+      "title": "Mathematics",
+      "tests": [
+        {
+          "id": "gp_maths_t1",
+          "title": "Mathematics – Test 01",
+          "questions": 80,
+          "marks": 80,
+          "time": "60 Min"
+        },
+        {
+          "id": "gp_maths_t2",
+          "title": "Mathematics – Test 02",
+          "questions": 80,
+          "marks": 80,
+          "time": "60 Min"
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "title": "General Science",
+      "tests": [
+        {
+          "id": "gp_science_t1",
+          "title": "Science – Test 01",
+          "questions": 80,
+          "marks": 80,
+          "time": "60 Min"
+        },
+        {
+          "id": "gp_science_t2",
+          "title": "Science – Test 02",
+          "questions": 80,
+          "marks": 80,
+          "time": "60 Min"
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "History",
+      "tests": [
+        {
+          "id": "gp_history_t1",
+          "title": "History – Test 01",
+          "questions": 80,
+          "marks": 80,
+          "time": "60 Min"
+        },
+        {
+          "id": "gp_history_t2",
+          "title": "History – Test 02",
+          "questions": 80,
+          "marks": 80,
+          "time": "60 Min"
+        }
+      ]
+    },
+    {
+      "id": "geography",
+      "title": "Geography",
+      "tests": [
+        {
+          "id": "gp_geo_t1",
+          "title": "Geography – Test 01",
+          "questions": 80,
+          "marks": 80,
+          "time": "60 Min"
+        },
+        {
+          "id": "gp_geo_t2",
+          "title": "Geography – Test 02",
+          "questions": 80,
+          "marks": 80,
+          "time": "60 Min"
+        }
+      ]
+    },
+    {
+      "id": "polity",
+      "title": "Polity",
+      "tests": [
+        {
+          "id": "gp_polity_t1",
+          "title": "Polity – Test 01",
+          "questions": 80,
+          "marks": 80,
+          "time": "60 Min"
+        },
+        {
+          "id": "gp_polity_t2",
+          "title": "Polity – Test 02",
+          "questions": 80,
+          "marks": 80,
+          "time": "60 Min"
+        }
+      ]
+    },
+    {
+      "id": "current_affairs",
+      "title": "Current Affairs",
+      "tests": [
+        {
+          "id": "gp_ca_t1",
+          "title": "Current Affairs – Test 01",
+          "questions": 80,
+          "marks": 80,
+          "time": "60 Min"
+        },
+        {
+          "id": "gp_ca_t2",
+          "title": "Current Affairs – Test 02",
+          "questions": 80,
+          "marks": 80,
+          "time": "60 Min"
+        }
+      ]
+    },
+    {
+      "id": "bihar_special",
+      "title": "Bihar Special",
+      "tests": [
+        {
+          "id": "gp_bihar_t1",
+          "title": "Bihar Special – Test 01",
+          "questions": 80,
+          "marks": 80,
+          "time": "60 Min"
+        },
+        {
+          "id": "gp_bihar_t2",
+          "title": "Bihar Special – Test 02",
+          "questions": 80,
+          "marks": 80,
+          "time": "60 Min"
+        }
+      ]
+    }
+  ]
+}
+
+}

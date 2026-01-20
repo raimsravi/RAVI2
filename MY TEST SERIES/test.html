@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Test</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="top-bar">
+  <div class="logo">BPSC TRE-4 CS</div>
+  <div id="timer">60:00</div>
+</div>
+
+<div class="main">
+  <div class="question-area">
+    <div id="qno"></div>
+    <h3 id="question"></h3>
+    <div id="options" class="options"></div>
+
+    <div class="action-buttons">
+      <button class="gray" onclick="clearResponse()">Clear</button>
+      <button class="orange" onclick="markReview()">Review</button>
+      <button class="blue" onclick="saveNext()">Save & Next</button>
+    </div>
+  </div>
+
+  <div class="palette">
+    <h4>Questions</h4>
+    <div id="palette"></div>
+    <button class="submit" onclick="submitTest()">Submit</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,664 @@
+/* =========================
+   GLOBAL RESET
+========================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  background: #f4f6f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* =========================
+   HERO / HOME HEADER
+========================= */
+.hero {
+  background: linear-gradient(120deg, #1976d2, #42a5f5);
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 34px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.hero p {
+  font-size: 16px;
+  opacity: 0.95;
+}
+
+/* =========================
+   SIMPLE HEADER (INNER PAGES)
+========================= */
+.simple-header {
+  background: #ffffff;
+  padding: 20px 30px;
+  border-bottom: 1px solid #ddd;
+}
+
+.simple-header h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #222;
+}
+
+/* =========================
+   CARD GRID (HOME / CATEGORY)
+========================= */
+.subjects {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 0 20px;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+.subject-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.subject-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+}
+
+.subject-card h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.subject-card p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* =========================
+   TESTBOOK STYLE LIST
+   (FULL LENGTH + PYQ)
+========================= */
+.test-list {
+  max-width: 1100px;
+  margin: 30px 0 30px 60px; /* LEFT aligned */
+  padding-right: 20px;
+}
+
+
+.test-row {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 18px 22px;
+  margin-bottom: 14px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+.test-info h3 {
+  font-size: 17px;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 4px;
+}
+
+.test-info p {
+  font-size: 13px;
+  color: #666;
+}
+
+/* Start Test Button */
+.test-row button {
+  background: #00bcd4;
+  color: #fff;
+  border: none;
+  padding: 9px 18px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.test-row button:hover {
+  background: #0097a7;
+}
+
+/* =========================
+   CHAPTER TEST LIST
+========================= */
+.chapter-section {
+  margin-bottom: 35px;
+}
+
+.chapter-section h3 {
+  font-size: 20px;
+  margin-bottom: 14px;
+  color: #1976d2;
+}
+
+.test-card {
+  background: #ffffff;
+  padding: 16px 20px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.test-card h4 {
+  font-size: 16px;
+  margin-bottom: 4px;
+  color: #222;
+}
+
+.test-card small {
+  font-size: 13px;
+  color: #777;
+}
+
+.test-card button {
+  background: #1976d2;
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.test-card button:hover {
+  background: #125aa3;
+}
+
+/* =========================
+   RESPONSIVE (MOBILE)
+========================= */
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 26px;
+  }
+
+  .simple-header h2 {
+    font-size: 20px;
+  }
+
+  .test-row,
+  .test-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .test-row button,
+  .test-card button {
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+  }
+}
+/* =========================
+   RESULT PAGE
+========================= */
+
+.container {
+  max-width: 1100px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+.container h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  padding: 10px 16px;
+  border: none;
+  background: #e3eaf3;
+  color: #1976d2;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.tabs button:hover {
+  background: #1976d2;
+  color: #fff;
+}
+
+/* Tab content card */
+.tab-content {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+}
+
+/* Overall result stats */
+.tab-content p {
+  font-size: 15px;
+  margin: 8px 0;
+}
+
+/* Topic table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table th {
+  background: #1976d2;
+  color: #fff;
+  padding: 10px;
+  font-size: 14px;
+}
+
+table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+}
+
+/* Solution block */
+.tab-content hr {
+  margin: 16px 0;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+/* =========================
+   TEST PAGE UI (TESTBOOK STYLE)
+========================= */
+
+.top-bar {
+  background: #1976d2;
+  color: #fff;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+}
+
+.logo {
+  font-weight: 600;
+}
+
+.main {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* LEFT QUESTION AREA */
+.question-area {
+  flex: 3;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+}
+
+.q-header {
+  font-size: 15px;
+  margin-bottom: 12px;
+  color: #555;
+}
+
+#question {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+/* OPTIONS */
+.options label {
+  display: block;
+  padding: 12px 14px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.options label:hover {
+  background: #eef5ff;
+}
+
+/* ACTION BUTTONS */
+.action-buttons {
+  margin-top: 20px;
+}
+
+.action-buttons button {
+  padding: 9px 14px;
+  border: none;
+  border-radius: 6px;
+  margin-right: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.gray { background: #9e9e9e; color: #fff; }
+.orange { background: #f9a825; color: #fff; }
+.blue { background: #1976d2; color: #fff; }
+
+/* RIGHT PALETTE */
+.palette {
+  flex: 1;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+}
+
+.palette h4 {
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+#palette button {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+  background: #e0e0e0;
+  cursor: pointer;
+}
+
+#palette button.answered {
+  background: #4caf50;
+  color: #fff;
+}
+
+#palette button.review {
+  background: #9c27b0;
+  color: #fff;
+}
+
+/* SUBMIT */
+.submit {
+  width: 100%;
+  margin-top: 15px;
+  background: #2e7d32;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .main {
+    flex-direction: column;
+  }
+}
+
+.option-btn{
+  border:1px solid #ccc;
+  padding:10px;
+  margin-bottom:8px;
+  border-radius:5px;
+  cursor:pointer;
+}
+/* =========================
+   QUIZ HEADER
+========================= */
+.quiz-header {
+  background: #ffffff;
+  padding: 15px 25px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quiz-header h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1976d2;
+}
+
+#progress {
+  font-size: 14px;
+  color: #555;
+}
+
+/* =========================
+   QUIZ TIMER (CIRCULAR)
+========================= */
+.quiz-timer {
+  position: fixed;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 80px;
+  height: 80px;
+}
+
+.quiz-timer svg {
+  transform: rotate(-90deg);
+}
+
+.quiz-timer circle {
+  fill: none;
+  stroke-width: 6;
+}
+
+.quiz-timer circle:first-child {
+  stroke: #e0e0e0;
+}
+
+#timerCircle {
+  stroke: #1976d2;
+  stroke-dasharray: 226;
+  stroke-dashoffset: 0;
+  transition: stroke-dashoffset 1s linear;
+}
+
+#timeText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  font-weight: bold;
+  color: #1976d2;
+}
+
+/* =========================
+   QUIZ CONTAINER
+========================= */
+.quiz-container {
+  max-width: 720px;
+  margin: 40px auto;
+  padding: 0 15px;
+}
+
+.quiz-card {
+  background: #ffffff;
+  padding: 25px 22px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  animation: slideUp 0.3s ease;
+}
+
+/* =========================
+   QUESTION
+========================= */
+.quiz-question {
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 18px;
+  color: #222;
+  line-height: 1.5;
+}
+
+/* =========================
+   OPTIONS
+========================= */
+.quiz-options {
+  margin-bottom: 15px;
+}
+
+.quiz-option {
+  width: 100%;
+  padding: 14px 16px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background: #ffffff;
+  cursor: pointer;
+  font-size: 15px;
+  text-align: left;
+  transition: all 0.2s ease;
+}
+
+.quiz-option:hover {
+  background: #f1f7ff;
+  border-color: #1976d2;
+}
+
+.quiz-option.correct {
+  background: #e6f4ea;
+  border-color: #28a745;
+  color: #155724;
+  font-weight: 500;
+}
+
+.quiz-option.wrong {
+  background: #fdecea;
+  border-color: #dc3545;
+  color: #721c24;
+}
+
+/* =========================
+   ACTION BUTTONS
+========================= */
+.quiz-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.skip-btn {
+  background: #9e9e9e;
+  color: #ffffff;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.skip-btn:hover {
+  background: #7e7e7e;
+}
+
+.next-btn {
+  background: #1976d2;
+  color: #ffffff;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.next-btn:hover {
+  background: #125aa3;
+}
+
+/* =========================
+   SOLUTION BUTTON
+========================= */
+.solution-btn {
+  margin-top: 15px;
+  padding: 10px 18px;
+  background: #00bcd4;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.solution-btn:hover {
+  background: #0097a7;
+}
+
+/* =========================
+   UTIL
+========================= */
+.hidden {
+  display: none;
+}
+
+/* =========================
+   ANIMATION
+========================= */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 768px) {
+  .quiz-timer {
+    right: 10px;
+    width: 65px;
+    height: 65px;
+  }
+
+  #timeText {
+    font-size: 14px;
+  }
+
+  .quiz-card {
+    padding: 20px 18px;
+  }
+
+  .quiz-question {
+    font-size: 16px;
+  }
+}

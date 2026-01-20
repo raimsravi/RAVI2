@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="quiz-header">
+  <h2>BPSC TRE-4 CS – Quiz</h2>
+  <span id="progress">Q1 / 20</span>
+</div>
+
+<!-- TIMER -->
+<div class="quiz-timer">
+  <svg width="80" height="80">
+    <circle cx="40" cy="40" r="36"></circle>
+    <circle cx="40" cy="40" r="36" id="timerCircle"></circle>
+  </svg>
+  <span id="timeText">15</span>
+</div>
+
+<!-- QUIZ CARD -->
+<div class="quiz-container">
+  <div class="quiz-card">
+
+    <h3 id="question" class="quiz-question"></h3>
+
+    <div id="options" class="quiz-options"></div>
+
+    <!-- ACTION BUTTONS -->
+    <div class="quiz-actions">
+      <button id="skipBtn" class="skip-btn">Skip</button>
+      <button id="nextBtn" class="next-btn hidden">Next</button>
+    </div>
+
+    <!-- SOLUTION -->
+    <button id="solutionBtn" class="solution-btn hidden">
+      View Detailed Solution
+    </button>
+
+  </div>
+</div>
+
+<script src="quiz.js"></script>
+</body>
+</html>
